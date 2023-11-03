@@ -1,0 +1,42 @@
+.main{
+    height: auto;
+    margin-bottom: 1rem;
+    
+}
+
+.mainImage{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+
+}
+.headline{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.headlineText {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.searchArea {
+    height: 12%;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.2rem;
+
+}
+
+
+.searchButton {
+    background-color: rgb(106, 228, 106);
+    padding: 0.6rem 1.2rem 0.6rem 1.2rem;
+    border-radius: 2rem;
+    margin: 0 0.4rem 0 0.4rem;
+}
+
+.searchButton:focus {
+    outline: none;
+}

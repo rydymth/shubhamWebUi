@@ -1,0 +1,88 @@
+.detailsContainer1{
+    width:100vw;
+    height: 20rem;
+    display: flex;
+    padding:0.5rem 2rem;
+}
+
+.detailsContainer2{
+    width:100vw;
+    padding:0.5rem 2rem;
+}
+.detailsimage{
+    border-radius: 2rem;
+    width: 30%;
+}
+.detailsName{
+    
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.detailsName h4{
+    font-size: larger;
+}
+.detailsContainer11 {
+    
+    display: flex;
+    align-items: center;
+    flex-direction: column ;
+}
+.detailsButton{
+    margin: 1rem 2rem;
+    border-radius: 2rem;
+    
+    padding :1rem 2rem 1rem 2rem;
+}
+
+.detailsButton{
+    padding: 0.2rem 0.6rem;
+    margin: 1rem 2rem; 
+    background-color: rgb(59, 224, 76);   
+}
+.detailsBackButton{
+    background-color: rgb(242, 243, 247);
+    margin: 1rem 2rem;
+    border-radius: 2rem;
+    
+    padding : 0.5rem 1rem 0.5rem 1rem;
+}
+
+.di{
+    margin-bottom: 1rem;
+}
+
+.detailsContainer2 h4{
+    font-size: large;
+}
+
+@media  (max-width : 768px) {
+    .detailsContainer1{
+        display: block;
+        height: 50vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+    }
+    .detailsimage{
+        width: 80%;
+        height: 80%;
+    }
+    .detailsButton{
+        padding: 0.2rem 0.6rem;
+        margin: 0.5rem 1rem; 
+        background-color: rgb(59, 224, 76);   
+    }
+
+    .detailsbutton{
+        display: flex;
+        
+    }
+    .detailsName{
+        padding:1rem;
+        margin-bottom: 1rem;
+       
+    }
+}

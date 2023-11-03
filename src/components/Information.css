@@ -1,0 +1,52 @@
+.containerr{
+    width: 90%;
+    width: 100vw;
+    margin-top:2rem;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.part1{
+    width: 80%;
+    
+}
+.title{
+    height: 40%;
+    display: flex;
+    align-items: center;
+    padding: 1rem;    
+}
+
+.imagee{
+    height:5rem;
+    width: 5rem;
+    margin-right: 2rem;
+   
+ }
+
+
+.titlee{
+    font-weight: bolder;
+    font-size:larger
+}
+
+.info{
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+}
+
+.part2{ 
+    width: 80%;
+    
+   
+}
+.part3{ 
+    width: 80%;    
+}
+
+p{
+    font-size: 1rem;
+}
