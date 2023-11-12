@@ -34,10 +34,9 @@ const Identify = () => {
     imagee.src = image;
 
     const tensor = tf.browser.fromPixels(imagee)
-      .resizeNearestNeighbor([224, 224 ])
+      .resizeNearestNeighbor([256, 256])
       .toFloat()
       .div(tf.scalar(255))
-      .expandDims();
 
     const predictions = await model.predict(tensor).data();
     console.log(predictions);
